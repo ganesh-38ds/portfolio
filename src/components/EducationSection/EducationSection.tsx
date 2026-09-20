@@ -16,7 +16,7 @@ export const EducationSection = () => {
       icon: GraduationCap,
       details: [
         "Specializing in Data Science, Machine Learning pipelines, and RAG architectures",
-        "Shipped 8 end-to-end applications across generative AI, analytics dashboards, and web systems",
+        "Engineered end-to-end applications across conversational AI, autonomous analytics, and web systems",
         "Completed 2 state-sponsored internships under APSCHE (Full-Stack Python & Tableau BI)",
         "Undergraduate curriculum accredited by JNTU Kakinada with rigorous core CS foundation"
       ]

@@ -6,7 +6,6 @@ import {
   Server,
   BarChart3,
   Database,
-  Cpu,
   Terminal,
   CheckCircle2,
   Sparkles,
@@ -113,23 +112,6 @@ const skillGroups: SkillGroup[] = [
     ],
   },
   {
-    id: "core-cs",
-    category: "Core Computer Science",
-    filterTag: "core",
-    icon: Cpu,
-    color: "text-rose-400",
-    badgeBg: "bg-rose-500/10 text-rose-400 border-rose-500/30",
-    borderColor: "border-rose-500/20",
-    description: "Fundamental engineering principles ensuring algorithmic efficiency, system reliability, and modular code.",
-    skills: [
-      { name: "Data Structures & Algorithms (DSA)", level: "Advanced", isPrimary: true },
-      { name: "Object-Oriented Programming (OOP)", level: "Expert", isPrimary: true },
-      { name: "DBMS", level: "Advanced" },
-      { name: "Operating Systems", level: "Proficient" },
-      { name: "Computer Networks", level: "Proficient" },
-    ],
-  },
-  {
     id: "tools",
     category: "Tools & DevOps Workflow",
     filterTag: "tools",
@@ -162,7 +144,7 @@ const categoryFilters = [
   { id: "ai", label: "AI & Machine Learning" },
   { id: "backend", label: "Backend & Databases" },
   { id: "bi", label: "BI & Data Analytics" },
-  { id: "core", label: "Languages & Core CS" },
+  { id: "core", label: "Programming Languages" },
   { id: "tools", label: "Tools & DevOps" },
 ];
 

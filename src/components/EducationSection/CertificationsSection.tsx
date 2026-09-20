@@ -45,19 +45,6 @@ const certificationsData: Certification[] = [
     icon: Brain,
   },
   {
-    id: "ibm-data-analysis",
-    title: "Data Analysis with Python",
-    issuer: "IBM SkillsBuild",
-    category: "ai-ml",
-    categoryLabel: "Data Science",
-    year: "2026",
-    badge: "DA0101EN Verified",
-    badgeColor: "text-sky-400 bg-sky-500/10 border-sky-500/30",
-    description: "End-to-end data manipulation, statistical modeling, exploratory data analysis, and predictive model fitting using Pandas & NumPy.",
-    skills: ["Python", "Pandas", "NumPy", "EDA"],
-    icon: BarChart3,
-  },
-  {
     id: "ibm-python-101",
     title: "Python 101 for Data Science",
     issuer: "IBM SkillsBuild",
@@ -155,19 +142,6 @@ const certificationsData: Certification[] = [
     icon: Database,
   },
   {
-    id: "simplilearn-analytics-excel",
-    title: "Business Analytics with Excel",
-    issuer: "Simplilearn SkillUp",
-    category: "analytics",
-    categoryLabel: "Spreadsheet BI",
-    year: "2025",
-    badge: "Business Analytics",
-    badgeColor: "text-emerald-400 bg-emerald-500/10 border-emerald-500/30",
-    description: "Advanced PivotTables, conditional formulas, trend analysis, XLOOKUP/VLOOKUP functions, and executive business summary graphics.",
-    skills: ["Advanced Excel", "PivotTables", "Data Summarization"],
-    icon: Layers,
-  },
-  {
     id: "simplilearn-intro-excel",
     title: "Introduction to MS Excel",
     issuer: "Simplilearn SkillUp",
@@ -182,58 +156,6 @@ const certificationsData: Certification[] = [
   },
 
   // Professional Tracks & Workshops
-  {
-    id: "oneroadmap-fullstack",
-    title: "Full Stack Developer Track",
-    issuer: "OneRoadmap",
-    category: "tracks",
-    categoryLabel: "Development",
-    year: "2026",
-    badge: "Full-Stack Track",
-    badgeColor: "text-indigo-400 bg-indigo-500/10 border-indigo-500/30",
-    description: "Comprehensive full-stack engineering track covering modern responsive frontends, backend REST architectures, and database persistence.",
-    skills: ["Web Dev", "REST APIs", "Full-Stack"],
-    icon: Code2,
-  },
-  {
-    id: "codsoft-python",
-    title: "Python Development Internship",
-    issuer: "CodSoft",
-    category: "tracks",
-    categoryLabel: "Internship Track",
-    year: "2025",
-    badge: "4-Week Intensive",
-    badgeColor: "text-blue-400 bg-blue-500/10 border-blue-500/30",
-    description: "Completed real-world software engineering assignments delivering modular Python desktop automation, OOP applications, and version-controlled repos.",
-    skills: ["Python", "Automation", "OOP", "Git"],
-    icon: Code2,
-  },
-  {
-    id: "novitech-analytics",
-    title: "Data Analytics Intensive",
-    issuer: "NoviTech R&D",
-    category: "tracks",
-    categoryLabel: "Internship Track",
-    year: "2025",
-    badge: "30-Day Program",
-    badgeColor: "text-cyan-400 bg-cyan-500/10 border-cyan-500/30",
-    description: "Industry-guided data analytics internship performing exploratory analysis, statistical data verification, and reporting dashboard development.",
-    skills: ["Data Analytics", "Statistical Analysis", "Reporting"],
-    icon: BarChart3,
-  },
-  {
-    id: "workshop-ai-trinity",
-    title: "AI Trinity: ML, DL & Real-Time Modeling",
-    issuer: "Swarnandhra & Purple Tech",
-    category: "tracks",
-    categoryLabel: "Workshop",
-    year: "2025",
-    badge: "Technical Summit",
-    badgeColor: "text-purple-400 bg-purple-500/10 border-purple-500/30",
-    description: "Hands-on engineering workshop diving into practical machine learning pipelines, deep learning neural networks, and real-time computer vision.",
-    skills: ["Machine Learning", "Deep Learning", "Real-Time AI"],
-    icon: Cpu,
-  },
   {
     id: "workshop-guvi-yuva",
     title: "YUVA AI for ALL",
@@ -250,11 +172,11 @@ const certificationsData: Certification[] = [
 ];
 
 const categories = [
-  { id: "all", label: "All Credentials", count: 16 },
-  { id: "ai-ml", label: "AI & Data Science", count: 5 },
+  { id: "all", label: "All Credentials", count: 10 },
+  { id: "ai-ml", label: "AI & Data Science", count: 4 },
   { id: "nptel", label: "NPTEL Elite (IIT)", count: 2 },
-  { id: "analytics", label: "BI & Analytics", count: 4 },
-  { id: "tracks", label: "Tracks & Workshops", count: 5 },
+  { id: "analytics", label: "BI & Analytics", count: 3 },
+  { id: "tracks", label: "Tracks & Workshops", count: 1 },
 ];
 
 export const CertificationsSection = () => {
@@ -292,13 +214,13 @@ export const CertificationsSection = () => {
         {/* Quick Highlights Counter */}
         <div className="flex flex-wrap items-center gap-2.5">
           <span className="px-3.5 py-1.5 rounded-full border border-purple-500/30 bg-purple-500/10 text-purple-400 text-xs font-extrabold flex items-center gap-1.5 shadow-sm">
-            <Sparkles className="w-3.5 h-3.5" /> 16 Verified Credentials
+            <Sparkles className="w-3.5 h-3.5" /> 10 Verified Credentials
           </span>
           <span className="px-3.5 py-1.5 rounded-full border border-amber-500/30 bg-amber-500/10 text-amber-400 text-xs font-extrabold flex items-center gap-1.5 shadow-sm">
             <Award className="w-3.5 h-3.5" /> 2 Elite IIT (NPTEL)
           </span>
           <span className="px-3.5 py-1.5 rounded-full border border-sky-500/30 bg-sky-500/10 text-sky-400 text-xs font-extrabold flex items-center gap-1.5 shadow-sm">
-            <ShieldCheck className="w-3.5 h-3.5" /> 3 IBM SkillsBuild
+            <ShieldCheck className="w-3.5 h-3.5" /> 2 IBM SkillsBuild
           </span>
         </div>
       </motion.div>

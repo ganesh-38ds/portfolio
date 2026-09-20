@@ -19,20 +19,6 @@ export const ProjectsSection = () => {
   const projects: Project[] = [
     {
       id: 1,
-      title: "AI-Powered Data Intelligence & RAG Evaluation Platform",
-      subtitle: "Enterprise RAG pipeline with multimodal document parsing and automated retrieval evaluation benchmarks",
-      link: "https://github.com/ganesh-38ds",
-      image: "/projects/rag-platform.png",
-      tags: ["FastAPI", "React 19", "ChromaDB", "Google Gemini", "Docker", "Pytest"],
-      bulletPoints: [
-        "Built an enterprise-grade RAG pipeline with multimodal document parsing (PDF, CSV, Excel) and dense semantic vector retrieval via ChromaDB.",
-        "Implemented an automated evaluation harness measuring retrieval accuracy, faithfulness, and latency against synthetic benchmarks.",
-        "Containerized with Docker; built a responsive React 19 + Vite dashboard."
-      ],
-      gridClass: "md:col-span-7 h-[420px]",
-    },
-    {
-      id: 2,
       title: "Mikey AI — Multilingual Voice & Vision Assistant",
       subtitle: "Real-time multilingual voice and vision conversational assistant with continuous talk mode, live web search, and document intelligence.",
       link: "https://github.com/ganesh-38ds",
@@ -42,10 +28,10 @@ export const ProjectsSection = () => {
         "Built a continuous hands-free voice assistant using Web Speech API, low-latency Groq/Gemini models, and Edge-TTS with seamless English and Telugu voice switching.",
         "Integrated multimodal image analysis, live news & weather feeds, document Q&A (PDF/DOCX), and reminders on a dual-engine backend (SQLite & PostgreSQL)."
       ],
-      gridClass: "md:col-span-5 h-[420px]",
+      gridClass: "md:col-span-7 h-[420px]",
     },
     {
-      id: 3,
+      id: 2,
       title: "AI-Powered Autonomous Data Analyst",
       subtitle: "Automated dataset cleaning, anomaly detection, natural-language SQL queries, and executive summary generation",
       link: "https://github.com/ganesh-38ds",
@@ -55,36 +41,10 @@ export const ProjectsSection = () => {
         "Automated data cleaning and anomaly detection for raw uploaded datasets, with no manual preprocessing required.",
         "Built a 'chat with your data' natural-language query engine and one-click executive summary generation."
       ],
-      gridClass: "md:col-span-5 h-[360px]",
+      gridClass: "md:col-span-5 h-[420px]",
     },
     {
-      id: 4,
-      title: "Healthcare Analytics & Predictive Forecasting",
-      subtitle: "Clinical analytics dashboard across 55,500+ patient records with monthly admission forecasting models",
-      link: "https://github.com/ganesh-38ds/Healthcare-Analytics",
-      image: "/projects/healthcare-analytics.png",
-      tags: ["Python", "Streamlit", "Plotly", "Scikit-learn", "Pandas"],
-      bulletPoints: [
-        "Built a 7-view dashboard analyzing 55,500+ patient records with dynamic filtering by year, condition, gender, and admission type.",
-        "Trained Linear Regression and Random Forest models to forecast monthly patient admissions, comparing accuracy via MAE."
-      ],
-      gridClass: "md:col-span-7 h-[360px]",
-    },
-    {
-      id: 5,
-      title: "Crop Yield Analytics & Production Forecasting",
-      subtitle: "Agricultural intelligence analyzing 2.46L government records with 81% crop yield prediction accuracy",
-      link: "https://github.com/ganesh-38ds",
-      image: "/projects/crop-yield.png",
-      tags: ["Python", "Power BI", "Scikit-learn", "Pandas", "Matplotlib"],
-      bulletPoints: [
-        "Analyzed 2.46 lakh rows of real government crop production data across AP districts; built an interactive Power BI dashboard with year, crop, and district slicers.",
-        "Trained a Linear Regression model predicting Rice yield with 81% accuracy from year, area, and season."
-      ],
-      gridClass: "md:col-span-7 h-[400px]",
-    },
-    {
-      id: 6,
+      id: 3,
       title: "Sales Trends & Insights Web App",
       subtitle: "Cloud-hosted multi-year sales analytics visualizing revenue trends, profit margins, and segment health",
       link: "https://sales-qirs.onrender.com/",
@@ -93,10 +53,10 @@ export const ProjectsSection = () => {
       bulletPoints: [
         "Deployed a production sales analytics platform visualizing multi-year revenue, profit margin, and customer segment trends, hosted live on Render."
       ],
-      gridClass: "md:col-span-5 h-[400px]",
+      gridClass: "md:col-span-4 h-[380px]",
     },
     {
-      id: 7,
+      id: 4,
       title: "Kaaram-Kada E-Commerce Store",
       subtitle: "Full-stack food & snack e-commerce platform with cart checkout, authentication, and inventory administration",
       link: "https://github.com/ganesh-38ds",
@@ -105,10 +65,10 @@ export const ProjectsSection = () => {
       bulletPoints: [
         "Built a complete food/snack e-commerce store with cart checkout, user authentication, inventory tracking, and an admin portal for products and orders."
       ],
-      gridClass: "md:col-span-5 h-[360px]",
+      gridClass: "md:col-span-4 h-[380px]",
     },
     {
-      id: 8,
+      id: 5,
       title: "Expense Tracker Pro",
       subtitle: "Personal finance web application for transaction categorization, budget thresholds, and cash-flow health",
       link: "https://github.com/ganesh-38ds/expense-tracker",
@@ -117,7 +77,7 @@ export const ProjectsSection = () => {
       bulletPoints: [
         "Built a personal finance web app to track income/expenses, categorize transactions, and visualize monthly budgeting health with Chart.js."
       ],
-      gridClass: "md:col-span-7 h-[360px]",
+      gridClass: "md:col-span-4 h-[380px]",
     },
   ];
 

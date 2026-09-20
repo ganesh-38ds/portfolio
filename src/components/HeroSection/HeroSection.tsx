@@ -72,7 +72,7 @@ export const HeroSection = () => {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.5, duration: 0.8 }}
           >
-            Data Science &amp; AI Engineering undergraduate with eight shipped projects spanning RAG pipelines, applied machine learning, BI analytics, and full-stack web applications.
+            Data Science &amp; AI Engineering undergraduate with focused production projects spanning voice AI assistants, autonomous data analytics, and full-stack web applications.
           </motion.p>
 
           <motion.div 

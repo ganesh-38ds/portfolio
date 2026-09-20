@@ -2,10 +2,10 @@ import { motion } from "framer-motion";
 import { Code2, Globe2, Layout, Users } from "lucide-react";
 
 const stats = [
-  { icon: <Code2 className="w-6 h-6" />, label: "Shipped Projects", value: "8" },
+  { icon: <Code2 className="w-6 h-6" />, label: "Shipped Projects", value: "5" },
   { icon: <Users className="w-6 h-6" />, label: "APSCHE Internships", value: "2+" },
   { icon: <Layout className="w-6 h-6" />, label: "B.Tech CGPA", value: "7.31" },
-  { icon: <Globe2 className="w-6 h-6" />, label: "Certifications", value: "16+" },
+  { icon: <Globe2 className="w-6 h-6" />, label: "Certifications", value: "10+" },
 ];
 
 export const AboutSection = () => {
@@ -24,7 +24,7 @@ export const AboutSection = () => {
               Passionate about <span className="text-gradient-primary">Data &amp; AI Engineering</span>
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Third-year Computer Science &amp; Engineering (Data Science) undergraduate who has shipped eight independent projects spanning retrieval-augmented generation, applied machine learning, BI dashboards, and full-stack web applications — including a live-deployed sales analytics platform. Completed a Full-Stack Development internship at Datavalley and a Data Analytics internship with SmartBridge, both under APSCHE.
+              Third-year Computer Science &amp; Engineering (Data Science) undergraduate who has engineered production-grade projects spanning conversational AI, autonomous data analytics, and full-stack web applications — including a live-deployed sales analytics platform. Completed a Full-Stack Development internship at Datavalley and a Data Analytics internship with SmartBridge, both under APSCHE.
             </p>
           </div>
         </div>
